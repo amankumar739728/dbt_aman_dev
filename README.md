@@ -32,10 +32,10 @@ SELECT ...
 
 Each run does:
 
-Materialization	          Behavior
-table	               Drop + recreate
-view	               Replace view
-incremental	           Append/update rows
+- Materialization	          Behavior
+- table	               Drop + recreate
+- view	               Replace view
+- incremental	           Append/update rows
 
 
 ### Resources:
