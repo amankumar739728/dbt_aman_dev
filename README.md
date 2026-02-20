@@ -1,5 +1,8 @@
 Welcome to your new dbt project!
 
+<!-- So dbt is only where you will built your sql transformation and the data will be saved
+to snowflake -->
+
 ### Using the starter project
 
 Try running the following commands:
@@ -36,6 +39,21 @@ Each run does:
 - table	               Drop + recreate
 - view	               Replace view
 - incremental	           Append/update rows
+
+
+
+- Raw ---> Staging ---> marts
+
+models/
+│
+├── staging/
+│   └── stg_products.sql
+│
+├── marts/
+│   └── products_clean.sql
+│
+└── schema.yml
+
 
 
 ### Resources:
