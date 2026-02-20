@@ -11,6 +11,7 @@ Try running the following commands:
 - dbt test
 
 
+
 How dbt creates tables in Snowflake automatically:
 
 {{ config(materialized='table') }}
